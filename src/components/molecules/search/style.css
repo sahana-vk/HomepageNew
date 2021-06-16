@@ -1,0 +1,11 @@
+.search-container {
+  display: flex;
+  /* justify-content: flex-end; */
+  align-items: center;
+}
+
+@media screen and (max-width: 780px) {
+  .search-container {
+    display: none;
+  }
+}

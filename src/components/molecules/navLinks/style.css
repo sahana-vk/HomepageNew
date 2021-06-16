@@ -1,0 +1,10 @@
+.navlink-container {
+  display: flex;
+  margin-right: 255px;
+}
+
+@media screen and (max-width: 1200px) {
+  .navlink-container {
+    display: none;
+  }
+}

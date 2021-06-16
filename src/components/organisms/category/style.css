@@ -1,0 +1,16 @@
+.category-container {
+  padding-top: 35px;
+  padding-left: 120px;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 200px));
+
+  gap: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  .category-container {
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    padding-left: 20px;
+    gap: 10px;
+  }
+}

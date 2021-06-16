@@ -1,0 +1,30 @@
+.corouselInfo-container {
+  text-align: left;
+  
+}
+.corousel-tags {
+  padding-top: 20px;
+}
+
+.infoHeader {
+  padding-top: 20px;
+}
+
+.infoSubHeader {
+  padding-top: 10px;
+}
+
+.play-button-container {
+  display: flex;
+  align-items: center;
+  padding-top: 20px;
+}
+
+@media screen and (max-width: 780px) {
+  .infoSubHeader {
+    display: none;
+  }
+  .corousel-tags {
+    padding-top: 0px;
+  }
+}
